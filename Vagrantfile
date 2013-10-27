@@ -14,5 +14,8 @@ EOF
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.box = "raring64"
   config.vm.box_url = "http://files.fibr.io/vagrant-virtualbox-raring64.box"
+  config.vm.box_url = "http://cloud-images.ubuntu.com/raring/current/raring-server-cloudimg-vagrant-amd64-disk1.box"
   config.vm.provision "shell", inline: $provisioning_script
+
+  config.vm.network :private_network, ip: "1.2.3.4", :netmask => "255.255.255.0"
 end

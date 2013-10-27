@@ -1,0 +1,2 @@
+2013/10/27 14:35:10 [error] 11#0: *1 open() "/docroot/favicon.ico" failed (2: No such file or directory), client: 1.2.3.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "1.2.3.4:49167"
+2013/10/27 14:35:42 [error] 11#0: *1 open() "/docroot/dsajdlk" failed (2: No such file or directory), client: 1.2.3.1, server: , request: "GET /dsajdlk HTTP/1.1", host: "1.2.3.4:49167"
