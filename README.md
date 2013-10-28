@@ -1,7 +1,7 @@
 # Docker presentation
 
-Files for my introductory presentation of Docker at the Sthlm Devops
-Docker meetup held on October 30th 2013.
+Files for my introductory presentation of Docker at the Devops Sthlm's [Docker
+ meetup](www.meetup.com/DevOps-Stockholm/events/138089102/), held on October 30th 2013.
 
 Slides can be found [here](https://docs.google.com/presentation/d/1xf6J6ob44Fel6_hfIGZ0KF33YwgPGWoFZ-TYM1VBMPo/edit#slide=id.g11f46d04a_010).
 
