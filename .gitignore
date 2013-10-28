@@ -1,1 +1,2 @@
 .vagrant
+nginx-example/logs/*.log
