@@ -9,6 +9,9 @@ sh -c "curl -s http://get.docker.io/gpg | apt-key add -"
 sh -c "echo deb https://get.docker.io/ubuntu docker main > /etc/apt/sources.list.d/docker.list"
 apt-get update
 DEBIAN_FRONTEND=noninteractive apt-get install -y lxc-docker linux-image-extra-`uname -r`
+sh -c "echo 'mobydock' > /etc/hostname"
+sh -c "echo '127.0.0.1 mobydock' >> /etc/hosts"
+service hostname restart
 EOF
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
